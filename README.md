@@ -2,7 +2,7 @@
 Web project built for GovHack in course DECO7381 by team G-Hack
 
 
-#This is work of team G-Hack!
+# This is work of team G-Hack!
 ## Database
 
 ### The database schema specifies the relationships among primary components for GovHack, including account, team, event, competition, challenge, project and dataset. A typical scenario to traverse the relationship network in the database is shown as follows:
