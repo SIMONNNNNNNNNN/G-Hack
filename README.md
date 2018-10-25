@@ -2,7 +2,7 @@
 Web project built for GovHack in course DECO7381 by team G-Hack
 
 
-# This [site](http://ec2-13-211-239-163.ap-southeast-2.compute.amazonaws.com/g_hack/) is currently set up in AWS server.
+## This [site](http://ec2-13-211-239-163.ap-southeast-2.compute.amazonaws.com/g_hack/) is currently set up in AWS server.
 
 The programming language for this project is PHP, and we used PHP framework CodeIgniter(version: 3.1.9) which allows us to use MVC design pattern. 
 
@@ -17,7 +17,6 @@ The programming language for this project is PHP, and we used PHP framework Code
 7. There are two **.htaccess** files, just place them in the same directory. Otherwise, it may cause file permission errors.
 8. For those files in this repo that existing in CodeIgniter, just overwrite them.
 9. Composer info coming soon.
-
 
 
 ## Database
