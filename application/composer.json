@@ -1,0 +1,6 @@
+{
+    "require": {
+        "google/apiclient": "^2.0",
+        "cebe/markdown": "~1.2.0"
+    }
+}

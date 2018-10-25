@@ -1,0 +1,41 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+
+$route['index'] = 'index';
+$route['account/login'] = 'account/login';
+$route['account/register'] = 'account/register';
+$route['account/logout'] = 'account/logout';
+$route['account/forgetPassword'] = 'account/forgetPassword';
+$route['account/profile'] = 'account/showProfile';
+$route['account/changeEmailAndPassword'] = 'account/changeEmailAndPassword';
+$route['account/updateProfile'] = 'account/updateProfile';
+$route['account/google'] = 'account/google';
+$route['events/index'] = 'events';
+$route['events/event_brisbane'] = 'events/eventDetails';
+$route['challenges/index'] = 'challenges/index';
+$route['challenges/challenge_detail/(:any)'] = 'challenges/challenge_detail/$1';
+$route['challenges/challenge_details'] = 'challenges/challenge_details';
+$route['challenges/register_challenge'] = 'challenges/register_challenge';
+$route['challenges/register_challenge_for_project/(:any)/(:any)'] = 'challenges/register_challenge_for_project/$1/$2';
+$route['projects/index'] = 'projects/index';
+$route['projects/project_details/(:any)'] = 'projects/project_details/$1';
+$route['datasets/index'] = 'datasets/index';
+$route['datasets/dataset_details/(:any)'] = 'datasets/dataset_details/$1';
+$route['volunteering/index'] = 'volunteering/index';
+$route['volunteering/manageVolunteering'] = 'volunteering/manageVolunteering';
+$route['volunteering/updatePosition/(:any)'] = 'volunteering/updatePosition/$1';
+$route['volunteering/updatePosition/'] = 'volunteering/updatePosition/';
+$route['volunteering/newPosition/'] = 'volunteering/newPosition/';
+$route['volunteering/applicationDetail/(:any)'] = 'volunteering/applicationDetail/$1';
+$route['volunteering/updateStatus/(:any)/(:any)'] = 'volunteering/updateStatus/$1/$2';
+$route['volunteering/updateStatus/'] = 'volunteering/updateStatus/';
+$route['volunteering/applyPosition/(:any)'] = 'volunteering/applyPosition/$1';
+$route['volunteering/application_detail/(:any)'] = 'volunteering/application_detail/$1';
+$route['privilege/updatePrivilege'] = 'privilege/updatePrivilege/';
+$route['privilege/updatePrivilege'] = 'privilege/updatePrivilege/';
+$route['about/index'] = 'about/index';
+$route['projects/create_project'] = 'projects/create_project';
+$route['default_controller'] = 'welcome';
+$route['404_override'] = '';
+$route['translate_uri_dashes'] = FALSE;
