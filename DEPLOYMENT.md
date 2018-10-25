@@ -2,7 +2,7 @@
 
 The programming language for this project is PHP, and we used PHP framework CodeIgniter(version: 3.1.9) which allows us to use MVC design pattern. 
 
-##To deploy this repository in AWS, follow below steps:
+## To deploy this repository in AWS, follow below steps:
 
 1. Create AWS EC2 instance and RDS database according to the [user guide](https://docs.aws.amazon.com/zh_cn/AmazonRDS/latest/UserGuide/TUT_WebAppWithRDS.html) provided by Amazon. 
 2. Note that instead of MySQL, PostgreSQL is adopted for this project. So please choose PostgreSQL when creating RDS.
