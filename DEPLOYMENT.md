@@ -12,3 +12,5 @@ The programming language for this project is PHP, and we used PHP framework Code
 6. Execute sql scripts under directory **database_script** in PostgreSQL, which creates database schemas.
 7. There are two **.htaccess** files, just place them in the same directory. Otherwise, it may cause file permission errors.
 8. For those files in this repo that existing in CodeIgniter, just overwrite them.
+
+
