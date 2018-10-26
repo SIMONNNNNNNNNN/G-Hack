@@ -18,9 +18,30 @@ The programming language for this project is PHP, and we used PHP framework Code
 8. For those files in this repo that existing in CodeIgniter, just overwrite them.
 9. Composer info coming soon.
 
+
 ## Competitor's Guide
+A competitor is able to register events, challenge, project and team in this site. The routine of participating the 
+competition:
+1. create a team in dashboard.
+2. find a competition event in Event page, and register it.
+3. create a project for the competition in dashboard.
+4. In challenge page, find interested challenges to register under the project.
 
 ## Organiser's Guide 
+In order to start the whole project and create an admin account, you have to register an account in the site. 
+To get higher privilege for the first admin account, you have to modify the privilege via database. Because the current 
+implementation about privilege is that privilege system is available for admin users. But new accounts are initialised with
+team member's privilege. Once you have an admin account, you can manage users' privilege in dashboard. Also, there are
+a number of functions could be done in the dashboard. In the default page of dashboard, admin users are able to create events,
+challenges, datasets, volunteering positions. In terms of profile, admin users are able to change profile information 
+in profile tab. In volunteering tab, admin users can approve or reject volunteering applications. In Manage Users tab, admin 
+users are able to give different level of privileges to users.
+
+## volunteer's Guide
+For those people interested in being a volunteer in GovHack, just register an account. In dashboard, click Volunteering tab,
+from where you can see current available volunteering positions. Choose the one you interested in, click apply and fill 
+out the form. In the dashboard index page, you can find your application status, when admin users approved your application.
+The status will be approved or rejected.
 
 ## Database
 
