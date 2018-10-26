@@ -4,7 +4,7 @@ Web project built for GovHack in course DECO7381 by team G-Hack
 
 ## This [site](http://ec2-13-211-239-163.ap-southeast-2.compute.amazonaws.com/g_hack/) is currently set up in AWS server.
 
-The programming language for this project is PHP, and we used PHP framework CodeIgniter(version: 3.1.9) which allows us to use MVC design pattern. 
+The programming language for this project is PHP, and we used PHP framework CodeIgniter (version: 3.1.9) which allows us to use MVC design pattern. 
 
 ## To deploy this repository in AWS, follow below steps:
 
@@ -15,9 +15,17 @@ The programming language for this project is PHP, and we used PHP framework Code
 5. Specify database related information in application/config/database.php, details could be found [here](https://www.codeigniter.com/user_guide/database/configuration.html). Note that database driver should be PDO.
 6. Execute sql scripts under directory **database_script** in PostgreSQL, which creates database schemas.
 7. There are two **.htaccess** files, just place them in the same directory. Otherwise, it may cause file permission errors.
-8. For those files in this repo that existing in CodeIgniter, just overwrite them.
-9. Composer info coming soon.
-
+8. For those files in this repo that exist in CodeIgniter, just overwrite them.
+9. Composer was used to install third party libraries (contents of application/vendor folder). Third party libraries are: 
+- Google/API Client for Google sign-in and registration. 
+- Cebe/Markdown for parsing competitors' project information that was styled using Markdown. 
+To install and update the libraries, Composer should be installed either globally on the server or locally in the Application folder. Composer installation instructions can be found at [Composer]()
+For simplicity, just run the following commands (for global installation) in the command line interface on the server:
+`sudo curl -sS https://getcomposer.org/installer | sudo php`
+`sudo mv composer.phar /usr/local/bin/composer`
+`sudo ln -s /usr/local/bin/composer /usr/bin/composer` 
+To then install the third party libraries run the following command when inside the application folder where composer.json file is present:
+`composer install`
 
 ## Database
 
