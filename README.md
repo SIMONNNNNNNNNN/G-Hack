@@ -16,20 +16,20 @@ The programming language for this project is PHP, and we used PHP framework Code
 6. Execute sql scripts under directory **database_script** in PostgreSQL, which creates database schemas.
 7. There are two **.htaccess** files, just place them in the same directory. Otherwise, it may cause file permission errors.
 8. For those files in this repo that exist in CodeIgniter, just overwrite them.
-9. Composer was used to install third party libraries (contents of application/vendor folder). Third party libraries are: 
+9. Composer was used to install third party libraries. They are:  
+
 - Google/API Client for Google sign-in and registration.
-- Cebe/Markdown for parsing competitors' project information that was styled using Markdown. 
-To install and update the libraries, Composer should be installed either globally on the server or locally in the Application folder. Composer installation instructions can be found at [here](https://getcomposer.org/doc/00-intro.md).
+- Cebe/Markdown for parsing competitors' project information that was styled using Markdown.   
+   
+   To install and update the libraries, Composer should be installed either globally on the server or locally in the Application folder.    Composer installation instructions can be found at [here](https://getcomposer.org/doc/00-intro.md).
 
-For simplicity, just run the following commands (for global installation) in the command line interface on the server:  
-`sudo curl -sS https://getcomposer.org/installer | sudo php`  
-`sudo mv composer.phar /usr/local/bin/composer`  
-`sudo ln -s /usr/local/bin/composer /usr/bin/composer`  
+   For simplicity, just run the following commands (for global installation) in the command line interface on the server:  
+   `sudo curl -sS https://getcomposer.org/installer | sudo php`  
+   `sudo mv composer.phar /usr/local/bin/composer`  
+   `sudo ln -s /usr/local/bin/composer /usr/bin/composer`  
 
-To then install the third party libraries run the following command when inside the application folder where composer.json file is present: 
-`composer install`
-
-
+   To then install the third party libraries run the following command when inside the application folder where composer.json file is present: 
+   `composer install`
 
 ## Competitor's Guide
 A competitor is able to register events, challenge, project and team in this site. The routine of participating the 
