@@ -15,6 +15,7 @@ The programming language for this project is PHP, and we used PHP framework Code
 5. Specify database related information in application/config/database.php, details could be found [here](https://www.codeigniter.com/user_guide/database/configuration.html). Note that database driver should be PDO.
 6. Execute sql scripts under directory **database_script** in PostgreSQL, which creates database schemas.
 7. There are two **.htaccess** files, just place them in the same directory. Otherwise, it may cause file permission errors.
+<<<<<<< HEAD
 8. For those files in this repo that exist in CodeIgniter, just overwrite them.
 9. Composer was used to install third party libraries (contents of application/vendor folder). Third party libraries are: 
 - Google/API Client for Google sign-in and registration. 
@@ -26,6 +27,11 @@ For simplicity, just run the following commands (for global installation) in the
 `sudo ln -s /usr/local/bin/composer /usr/bin/composer` 
 To then install the third party libraries run the following command when inside the application folder where composer.json file is present:
 `composer install`
+
+## Competitor's Guide
+
+## Organiser's Guide 
+>>>>>>> 7fa602d5eae81b8163a6c6c9a49e7badc8bb248c
 
 ## Database
 
