@@ -18,6 +18,9 @@ The programming language for this project is PHP, and we used PHP framework Code
 8. For those files in this repo that existing in CodeIgniter, just overwrite them.
 9. Composer info coming soon.
 
+## Competitor's Guide
+
+## Organiser's Guide 
 
 ## Database
 
